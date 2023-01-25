@@ -135,12 +135,13 @@ body {
         @media (max-width: 600px) {
             margin-top: 0px;
             width: 100%;
+            flex-wrap: wrap;
         }
         .select-language {
             background-color: transparent;
             border: none;
             outline: none;
-            font-size: 12px;
+            font-size: 14px;
             color: $darkgrey;
         }
         .footer-items-container {
