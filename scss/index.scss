@@ -9,7 +9,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
 $blue: #1a73e8;
-$grey: #DADCE0;
+$lightgrey: #DADCE0;
+$darkgrey: #5f6368;
 
 body {
     min-height: 100vh;
@@ -25,7 +26,7 @@ body {
     .form-container {
         width: 450px;
         height: 500px;
-        border: 1px solid $grey;
+        border: 1px solid $lightgrey;
         border-radius: 8px;
         display: flex;
         flex-direction: column;
@@ -65,7 +66,7 @@ body {
                 width: 100%;
                 font-size: 16px;
                 padding: 18px;
-                border: 1px solid $grey;
+                border: 1px solid $lightgrey;
                 border-radius: 5px;
                 outline: none;
                 height: 55px;
@@ -86,7 +87,7 @@ body {
             margin-top: 45px;
             font-size: 14px;
             line-height: 1.4286;
-            color: #5f6368;
+            color: $darkgrey;
             span {
                 &:nth-child(2) {
                     color: $blue;
@@ -140,11 +141,12 @@ body {
             border: none;
             outline: none;
             font-size: 12px;
+            color: $darkgrey;
         }
         .footer-items-container {
             .footer-item {
                 font-size: 14px;
-                color: #5f6368;
+                color: $darkgrey;
                 cursor: pointer;
                 margin-right: 20px;
                 &:nth-child(3) {
